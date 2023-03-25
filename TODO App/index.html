@@ -29,8 +29,9 @@
               placeholder="Nombre de la tarea"
               class="inputForm"
               autocomplete="off"
+              data-createInput
             />
-            <button type="submit" class="btnCreate">
+            <button type="submit" class="btnCreate" data-createBtn>
               Agregar <i class="fas fa-plus-circle"></i>
             </button>
           </form>
@@ -46,5 +47,7 @@
         </ul>
       </div>
     </main>
+    <button class="btnCreate" onclick="console.clear()">borrar</button>
+    <script src="assets/JS/Index.js"></script>
   </body>
 </html>
